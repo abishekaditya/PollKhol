@@ -1,0 +1,14 @@
+@function construct-cdn($url-body, $params) {
+  @return 'https://' + $url-body + $params;
+}
+
+$google-fonts: 'fonts.googleapis.com/css';
+@import url(construct-cdn(
+  $google-fonts,
+  '?family=Bitter:400,700|Fira+Mono:500|Lato:400,700'
+  )
+);
+
+$serif: 'Bitter', serif;
+$sans-serif: 'Lato', sans-serif;
+$monospace: 'Fira Mono', monospace;

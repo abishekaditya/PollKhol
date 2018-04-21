@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/vendors/normalize';
+
+@import 'styles/abstracts/variables';
+@import 'styles/abstracts/functions';
+@import 'styles/abstracts/mixins';
+@import 'styles/abstracts/placeholders';
+
+@import 'styles/base/typography';
+
+@import 'styles/layout/navigation';
+
+@import 'styles/components/buttons';
+
+@import 'styles/themes/light';
+
+
+@import 'styles/pages/home';

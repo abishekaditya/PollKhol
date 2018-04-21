@@ -1,0 +1,7 @@
+@import '../abstracts/variables';
+
+.app {
+  display: grid;
+  font-family: $sans-serif;
+  font-size: $large;
+}
